@@ -2,13 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Privacy Policy - Home Assistant Nest</title>
+  <title>Privacy Policy</title>
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p>This application is used solely by its owner to connect Home Assistant to a Google Nest thermostat.</p>
-  <p>No personal data is collected, stored, or shared by this application.</p>
-  <p>Access tokens are used only to enable communication between Home Assistant and the Nest API.</p>
-  <p>If you have any questions, please contact me at: acrobatmaxx@gmail.com</p>
+  <p>This application is used exclusively by the owner to integrate Google Nest devices with Home Assistant for personal home automation purposes.</p>
+
+  <h2>Data Access and Usage</h2>
+  <p>We request access to the following Google account information and services:</p>
+  <ul>
+    <li><strong>openid</strong>, <strong>userinfo.email</strong>, <strong>userinfo.profile</strong>: Used to identify the account holder and associate the integration with their Google account.</li>
+    <li><strong>sdm.service</strong>, <strong>sdm.device.control.service</strong>, <strong>sdm.thermostat.service</strong>, <strong>nest-account</strong>: Used to access and control the user's Nest thermostat.</li>
+    <li><strong>pubsub</strong>: Used to receive real-time updates from the Nest device via Google Cloud Pub/Sub.</li>
+  </ul>
+  <p>No data is stored, shared, or transmitted to third parties. All data access is limited to the authenticated user and used solely for device control and automation within Home Assistant.</p>
+
+  <h2>Data Retention</h2>
+  <p>No personal data is retained. All interactions occur in real time and are processed locally through Home Assistant.</p>
+
+  <h2>Security</h2>
+  <p>This application uses OAuth 2.0 for secure authentication. No credentials or sensitive data are stored externally.</p>
+
+  <h2>Contact</h2>
+  <p>For questions or concerns, please contact the app owner at: <a href="mailto:your@email.com">acrobatmaxx@gmail.com</a></p>
 </body>
 </html>
